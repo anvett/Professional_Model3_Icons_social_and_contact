@@ -1,0 +1,90 @@
+@import "../../styles/variables.scss";
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: $spacing-7;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  gap: $spacing-3;
+}
+
+.logoEducation {
+  border-radius: 50%;
+  border: solid 3px $dark-color;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.title {
+  //margin-left: 20px;
+  color: $dark-color;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.captionHeader {
+  text-align: center; // Centra el texto
+  margin: 0; // Remueve el margen por defecto
+  padding-top: $spacing-3; // Espacio arriba del texto
+  padding-bottom: $spacing-3;
+  background-color: $primary-color;
+
+  .captionTitle {
+    padding: $spacing-3; // Espacio alrededor del título
+    margin: 0; // Remueve el margen por defecto
+    color: $primary-color; // Color del texto
+    font-weight: bolder;
+    background-color: $accent-color;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+  }
+}
+
+.captionBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem; // Espacio alrededor del contenido del modal
+  background-color: $primary-color; // Fondo del contenedor de texto del modal
+  color: $secondary-color; // Color del texto
+
+  .captionInstitution{
+    padding: $spacing-3; // Espacio alrededor del título
+    margin: 0; // Remueve el margen por defecto
+    color: $secondary-color; // Color del texto
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .captionYear{
+    padding: $spacing-3; // Espacio alrededor del título
+    margin: 0; // Remueve el margen por defecto
+    color: $secondary-color; // Color del texto
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  p {
+    // Estilos para descripciones que son texto plano
+
+    text-align: center; // Centra el texto
+    margin: 0; // Remueve el margen por defecto
+    padding-bottom: $spacing-7; // Espacio debajo del texto
+    padding-top: $spacing-3;
+  }
+}

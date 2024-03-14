@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: $primary-color;
+
+  .title {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $accent-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  }
+
+  .experienceItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: $primary-color;
+    background-color: $secondary-color;
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  .companyName {
+    font-weight: bold;
+  }
+}

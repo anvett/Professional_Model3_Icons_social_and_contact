@@ -1,0 +1,60 @@
+@import '../../styles/variables.scss';
+
+.bankLogo{
+    
+    border-radius: 50%;
+    border: solid 5px $dark-color;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.captionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; // Centra el texto
+    margin: 0; // Remueve el margen por defecto
+    padding-top: $spacing-3; // Espacio arriba del texto
+    padding-bottom: $spacing-3;
+    background-color: $primary-color;
+  
+    .captionTitle {
+      padding: $spacing-3; // Espacio alrededor del título
+      margin: 0; // Remueve el margen por defecto
+      color: $primary-color; // Color del texto
+      font-weight: bolder;
+      background-color: $accent-color;
+      width: 100%;
+      border-radius: 25px;
+      text-align: center;
+    }
+
+    span{
+        font-size: 1rem;
+        color: $accent-color;
+        padding-top: $spacing-3;
+    }
+  }
+  
+  .captionBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem; // Espacio alrededor del contenido del modal
+    background-color: $primary-color; // Fondo del contenedor de texto del modal
+    color: $secondary-color; // Color del texto
+
+    p{
+        font-size: 1rem;
+        color: $secondary-color;
+        font-weight: bolder;
+        text-align: center;
+        width: 100%;
+        text-decoration: underline;
+    }
+}

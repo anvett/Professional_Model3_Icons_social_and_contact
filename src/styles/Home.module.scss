@@ -1,0 +1,191 @@
+@import "../styles/variables.scss";
+
+.mainContainer {
+ 
+  width: 100%; 
+  background-color: $primary-color;
+ 
+}
+
+
+
+.infoCol {
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px $primary-color;
+  //background-color: $primary-color;
+  background-image: url("/images/background1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+  
+}  
+
+.contactSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: $spacing-4;
+
+  .whatsappButtonContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.educationSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: $spacing-4;
+  width: 100%;
+  height: auto;
+  background-color: $accent-color;
+
+  .educationTitle {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $dark-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  }
+}
+
+
+
+//---------------------------------
+//Services and specialities section
+//---------------------------------
+
+.servicesSection {
+  padding: $spacing-4;
+  width: 100%;
+  height: auto;
+  //background-color: transparent;
+  background-image: url("/images/background1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .servicesText {
+    margin-bottom: $spacing-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .servicesTitle {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $accent-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  }
+
+  .servicesInstructions {
+    color: $secondary-color;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+
+
+.productsSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: $spacing-4;
+  width: 100%;
+  height: auto;
+  background-color: $accent-color;
+  
+
+  .productsTitle {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  }
+
+  .productsDescription{
+    font-family: $font-primary;
+    font-size: 0.8rem;
+    color: $dark-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  
+  }
+}
+
+
+
+.paymentSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: $spacing-4;
+  width: 100%;
+  height: auto;
+  background-color: $primary-color;
+
+}
+
+.paymentInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: $spacing-4;
+  width: 100%;
+  height: auto;
+
+  .paymentTitle {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $accent-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  }
+
+  .paymentDescription{
+    font-family: $font-primary;
+    font-size: 0.8rem;
+    color: $accent-color;
+    text-align: center;
+    margin-bottom: $spacing-4;
+  
+  }
+
+  .bankInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-8;
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+  }
+}
+
+.videoPlayer{
+  
+  background-color: $accent-color;
+  width: 100%;
+}
+
+.qrCode {
+  background-color: $primary-color;
+  
+}

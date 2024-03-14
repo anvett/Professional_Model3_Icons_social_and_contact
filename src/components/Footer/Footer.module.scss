@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.footer {
+    background-color: $accent-color;
+    color: $primary-color;
+    padding: $spacing-4;
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+
+.textFooter{
+    text-align: center;
+}
+
+.linkFooter {
+    color: $primary-color;
+    text-decoration: none;
+    transition: $transition-fast;
+    text-align: center;
+    
+    
+}
+
+.linkFooter:hover {
+    text-decoration: underline;
+    color: $secondary-color;
+    
+}
+
+
+
