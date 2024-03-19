@@ -54,7 +54,7 @@ const Services = ({ services }) => {
           {renderDescription(selectedExp?.description)}
           <WhatsAppButton
             stylesButton={styles.whatsappButtonContact}
-            phone="+593986850295"
+            phone="+593984980912"
             message="Hola, me gustaría saber más sobre tus servicios"
             label="Más información"
           />

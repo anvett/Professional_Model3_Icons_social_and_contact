@@ -24,22 +24,22 @@ export default function testpage() {
     {
       id: 1,
       name: "Manejo de Redes Sociales",
-      image: "/images/product1.jpg",
+      image: "/images/producto1.jpeg",
       description: [
         "Plan Básico",
         "Plan Emprendedor",
         "Plan Profesional",
         "Plan Transformación Digital",
         "Campaña Express",
-        "Plan Viral Básico",
-        "Plan Viral Pro",
+        "Plan TikTok Básico",
+        "Plan TikTok Pro",
       ],
       phone: "+593992542248",
     },
     {
       id: 2,
       name: "Asesorías 1.1",
-      image: "/images/product2.jpg",
+      image: "/images/producto2.jpeg",
       description: [
         "Asesoría Express de tu perfil de instagram",
         "Asesoria y auditoria de redes sociales",
@@ -51,7 +51,7 @@ export default function testpage() {
     {
       id: 3,
       name: "Diseño de Marca",
-      image: "/images/product3.jpg",
+      image: "/images/producto3.jpeg",
       description: [
         "Logotipo",
         "Logotipo + manual de marca",
@@ -66,20 +66,20 @@ export default function testpage() {
     {
       service: "Manejo de Redes Sociales",
       description:
-        "Brindamos asesoría legal integral en disputas civiles, incluyendo contratos, responsabilidad civil, reclamos por daños y perjuicios, y más. Nuestro enfoque se centra en la prevención de litigios y la representación eficaz en juicio para proteger tus derechos e intereses.",
+        "Si necesitas mejorar el manejo de tus redes sociales, lo hacemos por ti, creando contenido, publicando en el horario adecuado, pautando publicidad exitosa, logrando crecer y vender como esperas , elige el plan que mas te gusta.",
       imageUrl: "/images/service1.jpg",
     },
     {
       service: "Consultoría y asesoría de Marketing",
       description:
-        "Ofrecemos servicios de consultoría y asesoría en marketing, ayudando a las empresas a desarrollar estrategias de marketing efectivas y a maximizar su presencia en línea. Nuestro enfoque se centra en la adopción de estrategias innovadoras y la aplicación de las últimas tendencias en marketing para impulsar el crecimiento de la marca y el retorno de inversión.",
+        "Si eres una marca, emprendedor, pequeña o gran empresa y quieres impulsar y mejorar tu imagen digital, he creado cada asesoría con temas específicos según tus necesidades para que logres crecer y vender en el mundo digital.",
       imageUrl: "/images/service2.jpg",
     },
 
     {
       service: "Branding y Creación de Marca",
       description:
-        "Nuestros servicios de branding y creación de marca están diseñados para ayudar a las empresas a establecer una identidad de marca sólida y atractiva. Nuestro enfoque se centra en la creación de una narrativa de marca única y en la implementación de estrategias de branding efectivas para aumentar el reconocimiento de la marca y la lealtad del cliente.",
+        "Tu marca debe representar  e identificar  la esencia y el corazón de que y  quien esta detrás de lo que eres,  te ayudamos a visualizarla creando el diseño que necesitas para que seas una marca inolvidable y legal.",
       imageUrl: "/images/service3.jpg",
     },
   ];
@@ -134,9 +134,9 @@ export default function testpage() {
                   transition={{ duration: 1 }}
                 >
                   <SocialMediaIcons
-                    facebook="https://www.facebook.com/ericka.veintimillatinoco"
-                    instagram="https://www.instagram.com/eriickaveintimilla/"
-                    tiktok="https://www.tiktok.com/@erickaveintimilla"
+                    facebook="https://www.facebook.com/likeatemkt?mibextid=ZbWKwL"
+                    instagram="https://www.instagram.com/likeate.digital/?igsh=bzh1c3l0NGt2MmYx"
+                    tiktok="https://www.tiktok.com/@marketing.con.ericka?_t=8knFmU8Fup3&_r=1"
                   />
                 </motion.div>
               </section>
@@ -157,7 +157,7 @@ export default function testpage() {
                   <div className={styles.whatsappButtonContact}>
                     <WhatsAppButton
                       stylesButton={styles.whatsappButtonContact}
-                      phone="+593992542248"
+                      phone="+593984980912"
                       message="Hola, me gustaría saber más sobre tus servicios"
                       label="Contáctame"
                     />
@@ -184,12 +184,12 @@ export default function testpage() {
                     <EducationAndCertifications
                       items={[
                         {
-                          title: "Licenciada en Marketing",
+                          title: "Ingeniera en Marketing",
                           institution: "Universidad Tecnológica Equinoccial",
                           year: "2021",
                           description:
                             "Ericka Veintimilla se graduó en Marketing en la Universidad Tecnológica Equinoccial, una institución reconocida por su enfoque innovador y práctico en la enseñanza del marketing. Durante su licenciatura, adquirió una base sólida en principios de marketing, estrategias de mercado y comportamiento del consumidor, preparándola para enfrentar los desafíos dinámicos del mundo del marketing moderno.",
-                          logo: "/images/ute_logo.png",
+                          logo: "/images/ute_logo.jpeg",
                         },
                         {
                           title: "Magister en Marketing digital",
@@ -278,7 +278,7 @@ export default function testpage() {
                     />
                     <PaymentInfo
                       bankName="Banco Guayaquil"
-                      accountNumber="2204744098"
+                      accountNumber="0013840275"
                       accountType="Cuenta de Ahorros"
                       identification="1726213612"
                       email="eriveinti@gmail.com"
@@ -286,7 +286,7 @@ export default function testpage() {
                     />
                     <PaymentInfo
                       bankName="Banco Produbanco"
-                      accountNumber="2204744098"
+                      accountNumber="18000872592"
                       accountType="Cuenta de Ahorros"
                       identification="1726213612"
                       email="eriveinti@gmail.com"

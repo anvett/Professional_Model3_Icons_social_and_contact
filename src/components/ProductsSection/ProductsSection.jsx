@@ -40,7 +40,7 @@ const ProductsSection = ({ productsData }) => {
               </div>
               <h3>{product.name}</h3>
               <WhatsAppButton
-                phone="+593994805678"
+                phone="+593984980912"
                 message="Hola, me gustaría saber más sobre tus servicios"
                 label="Contactar"
                 stylesButton={styles.whatsappButton}
@@ -69,7 +69,7 @@ const ProductsSection = ({ productsData }) => {
               className={styles.whatsappButtonContact} // Asegúrate de que esta clase esté definida en tu SCSS
               phone={selectedProduct.phone}
               message="Hola, estoy interesado en este producto."
-              label="Comprar ahora"
+              label="Quiero consultar"
             />
           </Modal.Body>
         </Modal>

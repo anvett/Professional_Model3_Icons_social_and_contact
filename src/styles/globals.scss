@@ -95,3 +95,11 @@ button:hover {
 section {
   margin-bottom: 1rem;
 }
+
+.btn-close {
+  color: #f0eae2 !important; /* Cambia el color según necesites */
+}
+
+.btn-close svg {
+  fill: #f0eae2 !important; /* Para iconos SVG, cambia el color según necesites */
+}
