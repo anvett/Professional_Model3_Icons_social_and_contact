@@ -114,7 +114,7 @@ export default function testpage() {
                   transition={{ duration: 1 }}
                 >
                   <ProfileImage
-                    src="/images/profile.jpeg"
+                    src="/images/profile.jpg"
                     alt="Mgr. Ericka Veintimilla T."
                     size={250}
                   />
@@ -172,8 +172,11 @@ export default function testpage() {
           <Row>
             <Col className={styles.educationSection}>
               <section id="education">
-                <div className={styles.educationTitle}>
-                  <h2>Educación y Certificaciones</h2>
+                <div className={styles.educationHeader}>
+                  <h2 className={styles.educationTitle}>Educación y Certificaciones</h2>
+                  <span className={styles.educationInstructions}>
+                    Haz clic en el item para ver la información
+                  </span>
                 </div>
                 <motion.div
                   initial={{ opacity: 0 }}
@@ -206,8 +209,6 @@ export default function testpage() {
               </section>
             </Col>
           </Row>
-
-          
 
           {/* Componente de servicios y/o especialidades */}
 

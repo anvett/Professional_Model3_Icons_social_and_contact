@@ -58,6 +58,17 @@ const Services = ({ services }) => {
             message="Hola, me gustaría saber más sobre tus servicios"
             label="Más información"
           />
+          <div className={styles.closeButtonContainer}>
+            <button
+              className={styles.closeButton}
+              onClick={() => {
+                setShow(false);
+                window.history.back();
+              }}
+            >
+              X Cerrar
+            </button>
+          </div>
         </Modal.Body>
       </Modal>
     </Container>

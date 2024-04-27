@@ -9,7 +9,7 @@ const QRCodeComponent = ({ qrCodeImageUrl, altText }) => {
         <Col md={6} className="text-center">
           <Image className={styles.image} src={qrCodeImageUrl} alt={altText} fluid />
           <p className={styles.scanText}>
-            Escanea para visitar mi tarjeta de presentación digital
+            ¡Escanea para visitar mi tarjeta!
           </p>
         </Col>
       </Row>

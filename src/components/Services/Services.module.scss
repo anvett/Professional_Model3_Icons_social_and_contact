@@ -118,3 +118,22 @@
     }
   }
 }
+
+.closeButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 2rem;
+
+  .closeButton {
+    background-color: $accent-color !important;
+    color: $primary-color !important;
+    font-size: 0.8rem !important;
+    padding: 0.25rem 1rem;
+    border-radius: 15px;
+
+    &:hover {
+      background-color: darken($secondary-color, 15%) !important;
+    }
+  }
+}

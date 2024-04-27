@@ -24,13 +24,24 @@ const EducationAndCertifications = ({ items }) => {
 
       {/* Modal para mostrar detalles */}
       <Modal show={show} onHide={() => setShow(false)}>
-        <Modal.Header className={styles.captionHeader} closeButton>
+        <Modal.Header className={styles.captionHeader} >
           <Modal.Title className={styles.captionTitle}>{selectedItem?.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className={styles.captionBody}>
           <p className={styles.captionInstitution}>{selectedItem?.institution}</p>
           <p className={styles.captionYear}>{selectedItem?.year}</p>
           <p>{selectedItem?.description}</p>
+          <div className={styles.closeButtonContainer}>
+            <button
+              className={styles.closeButton}
+              onClick={() => {
+                setShow(false);
+                window.history.back();
+              }}
+            >
+              X Cerrar
+            </button>
+          </div>
         </Modal.Body>
       </Modal>
     </div>

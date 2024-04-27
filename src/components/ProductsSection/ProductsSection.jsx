@@ -71,6 +71,17 @@ const ProductsSection = ({ productsData }) => {
               message="Hola, estoy interesado en este producto."
               label="Quiero consultar"
             />
+            <div className={styles.closeButtonContainer}>
+            <button
+              className={styles.closeButton}
+              onClick={() => {
+                setShowModal(false);
+                window.history.back();
+              }}
+            >
+              X Cerrar
+            </button>
+          </div>
           </Modal.Body>
         </Modal>
       )}

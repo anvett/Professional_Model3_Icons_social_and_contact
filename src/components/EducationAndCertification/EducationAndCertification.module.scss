@@ -30,10 +30,12 @@
   //margin-left: 20px;
   color: $dark-color;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family: $font-primary;
 }
 
 .captionHeader {
+ 
   text-align: center; // Centra el texto
   margin: 0; // Remueve el margen por defecto
   padding-top: $spacing-3; // Espacio arriba del texto
@@ -49,6 +51,8 @@
     width: 100%;
     border-radius: 25px;
     text-align: center;
+    font-size: 1.5rem;
+    font-family: $font-primary;
   }
 }
 
@@ -64,27 +68,50 @@
   .captionInstitution{
     padding: $spacing-3; // Espacio alrededor del título
     margin: 0; // Remueve el margen por defecto
-    color: $secondary-color; // Color del texto
+    color: $accent-color; // Color del texto
     font-weight: bolder;
     text-align: center;
     font-size: 1.2rem;
+    font-family: $font-primary;
   }
 
   .captionYear{
-    padding: $spacing-3; // Espacio alrededor del título
+    padding: $spacing-1; // Espacio alrededor del título
     margin: 0; // Remueve el margen por defecto
-    color: $secondary-color; // Color del texto
+    color: $accent-color; // Color del texto
     font-weight: bolder;
+    font-family: $font-primary;
     text-align: center;
     font-size: 1rem;
   }
 
   p {
     // Estilos para descripciones que son texto plano
-
+    color: $accent-color; // Color del texto
     text-align: center; // Centra el texto
     margin: 0; // Remueve el margen por defecto
     padding-bottom: $spacing-7; // Espacio debajo del texto
     padding-top: $spacing-3;
+    font-size: 1rem; // Tamaño de la fuente
+    font-family: $font-secondary; // Fuente secundaria
+  }
+}
+
+.closeButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 2rem;
+
+  .closeButton {
+    background-color: $accent-color !important;
+    color: $primary-color !important;
+    font-size: 0.8rem !important;
+    padding: 0.25rem 1rem;
+    border-radius: 15px;
+
+    &:hover {
+      background-color: darken($secondary-color, 15%) !important;
+    }
   }
 }
