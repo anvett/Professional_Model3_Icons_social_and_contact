@@ -98,7 +98,7 @@ export default function testpage() {
         <meta property="og:description" content="Tarjeta de presentación digital" />
         <meta
           property="og:image"
-          content="https://erickaveintimilla.businessdigicards.com/images/shared_image.jpg"
+          content="https://erickaveintimilla.anvetcard.com/images/shared_image.jpg"
         />
       </Head>
 
@@ -311,7 +311,7 @@ export default function testpage() {
           <Row>
             <Col className={styles.qrCode}>
               <section id="qrCode">
-                <QRCodeComponent qrCodeImageUrl="/images/qrcode-ev.png" altText="QR Code" />
+                <QRCodeComponent qrCodeImageUrl="/images/qrCode-ev.png" altText="QR Code" />
               </section>
             </Col>
           </Row>
