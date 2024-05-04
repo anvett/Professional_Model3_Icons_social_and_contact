@@ -84,6 +84,29 @@ export default function testpage() {
     },
   ];
 
+  //----------------------------------------------
+  // Educación y certificaciones Array
+  //----------------------------------------------
+
+  const education = [
+    {
+      title: "Ingeniera en Marketing",
+      institution: "Universidad Tecnológica Equinoccial",
+      year: "2021",
+      description:
+        "Ericka Veintimilla se graduó en Marketing en la Universidad Tecnológica Equinoccial, una institución reconocida por su enfoque innovador y práctico en la enseñanza del marketing. Durante su licenciatura, adquirió una base sólida en principios de marketing, estrategias de mercado y comportamiento del consumidor, preparándola para enfrentar los desafíos dinámicos del mundo del marketing moderno.",
+      logo: "/images/ute_logo.jpeg",
+    },
+    {
+      title: "Magister en Marketing digital",
+      institution: "Escuela de Postgrado Newman",
+      year: "2023",
+      description:
+        "Complementando su educación en marketing, Ericka obtuvo un máster en Marketing Digital en la Escuela de Postgrado Newman. Este programa avanzado le permitió especializarse en las últimas tendencias y herramientas del marketing digital, incluyendo SEO, marketing en redes sociales y análisis de datos. Su maestría refleja su compromiso con la adopción de estrategias digitales innovadoras y su habilidad para aplicarlas efectivamente en el mercado actual",
+      logo: "/images/newman_logo.png",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -185,24 +208,7 @@ export default function testpage() {
                 >
                   <div className={styles.educationInfo}>
                     <EducationAndCertifications
-                      items={[
-                        {
-                          title: "Ingeniera en Marketing",
-                          institution: "Universidad Tecnológica Equinoccial",
-                          year: "2021",
-                          description:
-                            "Ericka Veintimilla se graduó en Marketing en la Universidad Tecnológica Equinoccial, una institución reconocida por su enfoque innovador y práctico en la enseñanza del marketing. Durante su licenciatura, adquirió una base sólida en principios de marketing, estrategias de mercado y comportamiento del consumidor, preparándola para enfrentar los desafíos dinámicos del mundo del marketing moderno.",
-                          logo: "/images/ute_logo.jpeg",
-                        },
-                        {
-                          title: "Magister en Marketing digital",
-                          institution: "Escuela de Postgrado Newman",
-                          year: "2023",
-                          description:
-                            "Complementando su educación en marketing, Ericka obtuvo un máster en Marketing Digital en la Escuela de Postgrado Newman. Este programa avanzado le permitió especializarse en las últimas tendencias y herramientas del marketing digital, incluyendo SEO, marketing en redes sociales y análisis de datos. Su maestría refleja su compromiso con la adopción de estrategias digitales innovadoras y su habilidad para aplicarlas efectivamente en el mercado actual",
-                          logo: "/images/newman_logo.png",
-                        },
-                      ]}
+                      items={education}
                     />
                   </div>
                 </motion.div>
@@ -311,7 +317,7 @@ export default function testpage() {
           <Row>
             <Col className={styles.qrCode}>
               <section id="qrCode">
-                <QRCodeComponent qrCodeImageUrl="/images/qrCode-ev.png" altText="QR Code" />
+                <QRCodeComponent qrCodeImageUrl="/images/qrCode_ev.jpg" altText="QR Code" />
               </section>
             </Col>
           </Row>
